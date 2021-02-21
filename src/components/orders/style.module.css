@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container > p:first-child, .item {
+    padding: 10px 0;
+    border-bottom: 1px solid #919191;
+}
+
+.item, .total, .delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    font-size: 14px;
+}
+
+.item > p:first-child {
+    width: 70%;
+}
+
+.item > p:last-child {
+    width: 30%;
+    text-align: right;
+    word-break: break-all;
+}
+
+.total, .delivery {
+    margin-top: 10px;
+}
+
+.total > p:last-child {
+    color: #ee2347;
+}
+
+.delivery {
+    font-size: 14px;
+}

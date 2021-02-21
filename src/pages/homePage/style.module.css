@@ -1,0 +1,22 @@
+.container {
+    padding: 20px;
+}
+
+.description {
+    margin-top: 20vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.btnAllProducts {
+    display: block;
+    margin: 50px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    border-radius: 35px;
+}
+
+.link {
+    color: #e1e1e1;
+}

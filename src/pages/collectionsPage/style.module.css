@@ -1,0 +1,58 @@
+.container {
+    padding: 20px;
+}
+
+.paginate {
+    float: right;
+    margin-right: 100px;
+    padding: 10px 20px;
+    height: 150px;
+}
+
+/* ----------- sort and filter container ----------- */
+
+.sortAndFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+
+.filterContainer, .sortContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filterHeader {
+    margin-right: 5px;
+}
+
+.filterHeader > span {
+    display: block;
+}
+
+/* ----------- sort  ----------- */
+
+.sortItem {
+    padding: 0 10px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;
+    background: #17A2B8;
+    margin: 5px;
+}
+
+.sortItem option {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .sortAndFilter {
+        padding: 0 10px;
+    }
+}

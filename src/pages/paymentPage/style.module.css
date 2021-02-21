@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.paymentContainer {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.infoContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    font-size: 24px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 20px;
+}
+
+.payment, .delivery {
+    padding: 20px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.payment input[type="radio"],
+.delivery input[type="radio"] {
+    margin-right: 10px;
+}
+
+.btnAdd {
+    width: 50%;
+}

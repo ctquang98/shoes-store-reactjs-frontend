@@ -1,0 +1,21 @@
+.suggestionContainer {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    z-index: 999;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.suggestions li {
+    padding: 6px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #ddd;
+}

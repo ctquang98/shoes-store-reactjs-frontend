@@ -1,0 +1,104 @@
+.container {
+    background-color: #cbdee4;
+    height: 100vh;
+}
+
+.register {
+    position: absolute;
+    /* top: 60%;  because menu = 10% */
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.registerForm {
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #d1d1d1;
+}
+
+.registerForm h1 {
+    float: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 5px solid steelblue;
+    margin-bottom: 30px;
+}
+
+.registerForm input[type="text"],
+.registerForm input[type="password"],
+.registerForm input[type="email"],
+.registerForm select {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid steelblue;
+    margin: 8px 0;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.registerForm input[type="submit"] {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid steelblue;
+    outline: none;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.registerForm input[type="submit"]:disabled {
+    background-color: #dddddd;
+    border: none;
+    cursor: progress;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.login {
+    margin-top: 10px;
+}
+
+.signIn {
+    text-decoration: none;
+    color: steelblue;
+}
+
+@media screen and (max-width: 600px) {
+    .register {
+        width: 60%;
+    }
+    .registerForm {
+        padding: 20px;
+    }
+    .register h1 {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .register {
+        width: 80%;        
+    }
+    .registerForm h1 {
+        margin-bottom: 10px;
+    }
+    
+    .registerForm input[type="text"],
+    .registerForm input[type="password"],
+    .registerForm input[type="email"] {
+        margin: 5px 0;
+        padding: 8px 0;
+    }
+}

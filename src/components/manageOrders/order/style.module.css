@@ -1,0 +1,10 @@
+.process {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 0;
+}

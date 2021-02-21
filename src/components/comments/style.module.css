@@ -1,0 +1,100 @@
+.container {
+    width: 80%;
+    margin: 25px auto 100px;
+}
+
+.addCommentLabel {
+    margin: 10px 0 ;
+    font-size: 25px;
+}
+
+.commentsContainer {
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment {
+    display: flex;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.name {
+    flex: 2;
+    word-break: break-all;
+    padding: 0 5px;
+}
+
+.content {
+    flex: 8;
+    padding: 0 5px;
+}
+
+.edit {
+    flex: 0;
+    display: flex;
+}
+
+.text {
+    display: block;
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnGroup button {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.btnGroup > button:first-child {
+    border: 0.5px solid #000000;
+    background-color: #ffffff;
+    margin: 5px 5px 0 0;
+}
+
+.btnGroup > button:last-child {
+    color: #ffffff;
+    background-color: #3791f3;
+    margin: 5px 0 0 5px;
+}
+
+.btnEdit {
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.addComment {
+    padding: 20px 0;
+}
+
+.addComment textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+}
+.addComment div {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.addComment div button {
+    text-align: right;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #3F51B5;
+    outline: none;
+}
+
+.addComment div button[disabled] {
+    opacity: 0.7;
+}

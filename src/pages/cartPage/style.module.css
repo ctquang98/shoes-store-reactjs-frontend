@@ -1,0 +1,139 @@
+/* -------- common --------- */
+.cartTable {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.cartTable th, .cartTable td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.cartTable th:first-child,
+.cartTable td:first-child {
+    text-align: left;
+}
+
+.cartTable th {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+/* -------- product details --------- */
+
+.product img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.product span {
+    display: inline-block;
+    margin: 5px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity button, .remove button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    outline: none;    
+    background-color: transparent;
+    border: 1px solid #dddddd;
+}
+
+.quantity button:hover,
+.remove button:hover {
+    background-color: #b9b9b9;
+}
+
+.quantity span {
+    display: block;    
+    border: 1px solid #dddddd;
+    height: 30px;
+    width: 100px;
+    margin: 0 5px;
+}
+
+.remove button {
+    display: inline-block;
+}
+
+/* -------- summary --------- */
+
+.summary {
+    width: 80%;
+    margin: 60px auto;
+
+}
+
+.info {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.info table {
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+.info table th {
+    font-size: 25px;
+}
+
+.info table td {
+    color: #818181;
+    padding: 5px 0;
+}
+
+.info table tbody tr:last-child {
+    border-top: 1px solid #dddddd;
+}
+
+.info table tr:last-child td {
+    padding-top: 15px;
+}
+
+/* --------- button submit --------- */
+
+.btnFinish {
+    display: block;
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #ff424e;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnFinish:hover {
+    background-color: #ff5b66;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .info, .btnFinish {
+        width: 80%;
+        margin: 20px auto 0;
+    }
+}

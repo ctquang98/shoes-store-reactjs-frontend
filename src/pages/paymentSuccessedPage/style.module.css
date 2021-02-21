@@ -1,0 +1,10 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    color: #848484;
+    margin: 50px 0;
+    text-align: center;
+}

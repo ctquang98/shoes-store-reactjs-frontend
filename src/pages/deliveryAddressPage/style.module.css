@@ -1,0 +1,15 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.addressContainer {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.infoContainer {
+    width: 30%;
+}

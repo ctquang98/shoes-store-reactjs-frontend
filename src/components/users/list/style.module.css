@@ -1,0 +1,33 @@
+.btnContainer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd {
+    display: block;
+}
+
+.sortItem {
+    padding: 0 10px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;
+    background: #17A2B8;
+    margin-left: 5px;
+}
+
+.sortItem option {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.users {
+    margin-bottom: 10px;    
+}
+
+.users thead th {
+    vertical-align: text-top;
+}

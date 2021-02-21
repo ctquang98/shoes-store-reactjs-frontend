@@ -1,0 +1,90 @@
+.cards {
+    display: flex;
+    padding: 10px 100px;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+    padding: 5px;
+}
+
+.link {
+    display: block;
+    margin: 20px 0 0 0;
+    color: #696969;
+    border: 1px solid #e1e1e1e1;
+}
+
+.link:hover {
+    color: #999999;
+    text-decoration: none;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+}
+
+.text {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.line {
+    text-decoration: line-through;
+    font-size: 16px;    
+    color: #9a9898;
+}
+
+.btnAdd {
+    display: block;
+    width: 100%;
+}
+
+/*-------------------  button container  --------*/
+
+.buttonContainer {
+    padding: 10px 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1148px) {
+    .wrap {
+        max-width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        padding: 10px 10px;
+    }
+
+    .wrap {
+        max-width: 100%;
+    }
+
+    .img {
+        height: 360px;
+    }
+
+    .buttonContainer {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #354452;
+    min-height: 90vh;
+}
+
+.sidebar {
+    width: 20%;
+    margin: 0;
+}
+
+.link {
+    display: block;
+    color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #212121;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #475665;
+}
+
+.active {
+    background-color: #546a80;
+}
+
+.content {
+    width: 80%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* mobile L */
+@media screen and (max-width: 425px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0;
+    }
+    .content {
+        width: 100%;
+        min-height: 80vh;
+    }
+}

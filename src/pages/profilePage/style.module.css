@@ -1,0 +1,41 @@
+.container {
+    width: 80%;
+    margin: 50px auto 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoContainer {
+    width: 55%;
+}
+
+.ordersContainer {
+    width: 40%;
+}
+
+.info {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.orders {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.paginateContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.infoContainer > h5, .ordersContainer > h5 {
+    color: #848484;
+}
+
+.changePassLabel {
+    cursor: pointer;
+    color: #5f7cb1;
+}

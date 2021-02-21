@@ -1,0 +1,165 @@
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 60px auto;
+    align-items: center;    
+}
+
+/* ----------- img -----------*/
+
+.imgContainer, .contents {
+    width: 50%;    
+}
+
+.imgContainer img {
+    width: 100%;
+    min-height: 500px;
+    box-shadow: -5px -5px 5px #dddddd;
+}
+
+/* ----------- contents -----------*/
+
+.contents {    
+    padding: 40px;
+    border: 1px solid #dddddd;
+    box-shadow: 5px -5px 5px #dddddd;
+}
+
+.title, .color,
+.size, .description {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.title > div {
+    display: flex;
+    align-items: center;
+}
+
+.title > div > p{
+    color: #949494;
+    margin-left: 10px;
+}
+
+.title > h3 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.title > p {    
+    max-height: 60px;
+    font-size: 20px;
+    color: #949494;
+    overflow: hidden;
+}
+
+.description > :first-child,
+.color > :first-child,
+.size > :first-child {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.colorContainer, .sizeContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colorContainer div,
+.sizeContainer div {
+    padding: 5px;
+    border: 1px solid #999999;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.colorContainer div:hover,
+.sizeContainer div:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #999999;
+}
+
+/* ----------- price and btn add -----------*/
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0 0;
+}
+
+.price h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.price > :first-child {
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    color: white;
+    background-color: #3791f3;
+    font-size: 20px;
+}
+
+.price > :first-child[disabled] {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.price > :first-child:hover {
+    cursor: pointer;
+    background-color: #5ba0ea;
+}
+
+/* ----------- rating -----------*/
+
+.ratingContainer {
+    width: 80%;
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+}
+
+.ratingContainer > p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* ----------- related product -----------*/
+
+.productRelatedContainer {
+    margin: 0 0 50px;
+}
+
+.description2 {
+    padding: 20px 105px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .imgContainer, .contents {
+        width: 100%;
+        box-shadow: none;
+    }
+    .imgContainer img{
+        min-height: 0;
+    }
+}
